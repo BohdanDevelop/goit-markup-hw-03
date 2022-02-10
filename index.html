@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Document</title>
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,18 +43,18 @@
       </div>
     </header>
     <main>
-      <section class="header-section">
+      <section class="section header-section">
         <div class="container flex-mainhead">
           <h1 class="header">
-            Эффективные решения<br />
-            для вашего бизнеса
+           ЭФФЕКТИВНЫЕ РЕШЕНИЯ<br />
+            ДЛЯ ВАШЕГО БИЗНЕСА
           </h1>
           <button class="header-button" type="button">Заказать услугу</button>
         </div>
       </section>
 
-      <section >
-        <div class="container first-container">
+      <section class="section" >
+        <div class="container">
           <h2 class="remove">заголовок секції, який прибереться в CSS</h2>
 
           <ul class="second-flex-ul">
@@ -89,8 +89,8 @@
         </div>
       </section>
 
-      <section > 
-        <div class="container third-container">
+      <section class="section" > 
+        <div class="container">
           <h2 class="h2-header">Чем мы занимаемся?</h2>
           <ul class="third-flex-section">
             <li class="third-flex-item"><img src="images/img1.jpg" alt="Компьютер" width="370" height="294" /></li>
@@ -100,45 +100,55 @@
         </div>
       </section>
 
-      <section >
-        <div class="container fourth-container">
+      <section class="section">
+        <div class="container ">
           <h2 class="h2-header">Наша команда</h2>
           <ul class="fourth-flex-ul">
             <li class="fourth-flex-item">
               <img src="images/bearded.jpg " alt="работник" class="image-fourth" width="270" height="260" />
-
-              <h3 class="worker-name">Игорь Демьянко</h3>
+              <div class="two-texts">
+                <h3 class="worker-name">Игорь Демьянко</h3>
 
               <p class="worker-text">product designer</p>
+
+              </div>
+              
             </li>
 
             <li class="fourth-flex-item">
               <img src="images/wom.jpg" alt="работник"class="image-fourth"  width="270" height="260" />
+              <div class="two-texts">
+                <h3 class="worker-name">Ольга Репина</h3>
 
-              <h3 class="worker-name">Ольга Репина</h3>
-
-              <p class="worker-text">Front-end developer</p>
+                <p class="worker-text">Front-end developer</p>
+              </div>
+             
             </li>
             <li class="fourth-flex-item">
               <img src="images/man.jpg" alt="работник" class="image-fourth" width="270" height="260" />
+                <div class="two-texts">
+                  <h3 class="worker-name">Николай Тарасов</h3>
 
-              <h3 class="worker-name">Николай Тарасов</h3>
-
-              <p class="worker-text">Marketing</p>
+                  <p class="worker-text">Marketing</p>
+                </div>
+            
             </li>
             <li class="fourth-flex-item">
+              
               <img src="images/man1.jpg" alt="работник" class="image-fourth" width="270" height="260" />
+              <div class="two-texts">
+                <h3 class="worker-name">Михаил Ермаков</h3>
 
-              <h3 class="worker-name">Михаил Ермаков</h3>
-
-              <p class="worker-text">UI Designer</p>
+                <p class="worker-text">UI Designer</p>
+              </div>
+             
             </li>
           </ul>
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <div class="container container-footer">
+    <footer class="footer pad-footer">
+      <div class="container ">
         <a class="webstudio footweb" href="./index.html"><span class="web">Web</span>Studio</a>
         <address class="foot-adress">
           <ul class="footer footer-ul">

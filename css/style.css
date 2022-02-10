@@ -64,7 +64,7 @@ ul {
 
 }
 .main-header{
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid #ECECEC;
 }
 
 .navigation-bar {
@@ -137,6 +137,7 @@ ul {
   margin-bottom: 9px;
 }
 .header {
+  margin-top: 106px;
   padding-bottom: 40px;
   font-weight: 900;
   color: #ffffff;
@@ -151,13 +152,13 @@ ul {
   color: var(--whiteColor);
 }
 .flex-mainhead{
-  padding: 200px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .header-button {
-  
+  margin-bottom: 106px;
+  padding: 10px 32px;
 
   font-size: 16px;
   line-height: 1.87;
@@ -166,10 +167,7 @@ ul {
   color: var(--whiteColor);
   background-color: var(--blueColor);
 }
-.first-container{
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+
 .second-flex-ul {
   display: flex;
   margin: 0;
@@ -200,32 +198,34 @@ ul {
   line-height: 1.17;
   color: var(--blackColor);
 }
-.third-container {
-  padding-bottom: 94px;
+.two-texts{
+  padding-bottom: 30px;
+  padding-top: 30px;
 }
 .third-flex-section{
   display: flex;
   padding: 0;
-  padding-top: 50px;
+  margin-top: 50px;
 }
 .third-flex-item:not(:last-child){
   padding-right: 30px;
 }
-.fourth-container{
-  padding-bottom: 94px;
-  padding-top: 94px;
+
+.new-text{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+
 }
 .fourth-flex-ul{
   display: flex;
-  padding: 50px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
 .fourth-flex-item:not(:last-child){
   margin-right: 30px;
 }
-.image-fourth{
-  margin-bottom: 30px;
-}
+
 .worker-name {
   margin-bottom: 10px;
   text-align: center;
@@ -244,7 +244,7 @@ ul {
   background-color: var(--footerGrey);
   color: var(--whiteColor);
 }
-.container-footer{
+.pad-footer{
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -257,6 +257,7 @@ ul {
 }
 
 .section-button {
+  padding: 6px 20px;
   margin-right: 10px;
   background-color: var(--buttonColor);
   font-weight: 500;
@@ -271,14 +272,7 @@ ul {
   color: #ffffff;
   box-shadow: 0 2 2 0, 0 1 2 0;
 }
-.section-header {
-  margin-top: 20px;
 
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  color: var(--blackColor);
-}
 .section-text {
   font-weight: 400;
   font-size: 16px;
@@ -318,4 +312,12 @@ ul {
 .adress:hover {
   color: var(--blueColor);
   
+}
+.section-header {
+  margin-top: 20px;
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--blackColor);
 }
