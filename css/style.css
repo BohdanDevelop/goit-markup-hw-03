@@ -137,7 +137,7 @@ ul {
   margin-bottom: 9px;
 }
 .header {
-  margin-top: 106px;
+  
   padding-bottom: 40px;
   font-weight: 900;
   color: #ffffff;
@@ -146,10 +146,12 @@ ul {
   line-height: 1.36;
 }
 .header-section {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: #2f303a;
   }
 .remove {
-  color: var(--whiteColor);
+  display: none;
 }
 .flex-mainhead{
   display: flex;
@@ -157,7 +159,7 @@ ul {
   align-items: center;
 }
 .header-button {
-  margin-bottom: 106px;
+  
   padding: 10px 32px;
 
   font-size: 16px;
@@ -174,8 +176,11 @@ ul {
   padding: 0;
   
 }
+.second-flex-item{
+  width: 270px;
+}
 .second-flex-item:not(:last-child) {
-  padding-right: 30px;
+  margin-right: 30px;
 }
 
 .h3-header {
@@ -212,9 +217,8 @@ ul {
 }
 
 .new-text{
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-bottom: 30px;
+  padding: 20px 24px;
+  
 
 }
 .fourth-flex-ul{
@@ -258,6 +262,7 @@ ul {
 
 .section-button {
   padding: 6px 20px;
+  border: none;
   margin-right: 10px;
   background-color: var(--buttonColor);
   font-weight: 500;
@@ -272,13 +277,6 @@ ul {
   color: #ffffff;
   box-shadow: 0 2 2 0, 0 1 2 0;
 }
-
-.section-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.875;
-}
-
 
 .section{
   padding-bottom: 94px;
@@ -300,11 +298,12 @@ ul {
 }
 .project-li{
   width: calc(100% / 3 -30px);
-  padding-bottom: 20px;
+  margin-bottom: 30px;
+  
 }
 .project-li:not(:nth-child(3n+0)){
   margin-right: 30px;
-  margin-bottom: 30px;
+ 
 }
 
 .navigation-bar:hover,
@@ -320,4 +319,7 @@ ul {
   font-size: 18px;
   line-height: 2;
   color: var(--blackColor);
+}
+.no-pad{
+  padding-top: 0;
 }
