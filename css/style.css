@@ -30,8 +30,8 @@ ul {
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
   
 }
 .header-container{
@@ -298,9 +298,10 @@ ul {
 
 }
 .project-li{
-  width: calc(100% /3 - 19.99px);
-  margin-bottom: 30px;
   border: 1px solid #EEEEEE;
+  width: calc(100% /3 - 30spx);
+  margin-bottom: 30px;
+  
  
   
 
