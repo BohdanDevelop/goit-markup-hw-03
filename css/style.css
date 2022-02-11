@@ -195,6 +195,7 @@ ul {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .h2-header {
   font-weight: 700;
@@ -219,7 +220,6 @@ ul {
 .new-text{
   padding: 20px 24px;
   
-
 }
 .fourth-flex-ul{
   display: flex;
@@ -291,18 +291,25 @@ ul {
 }
 
 .container-project{
+
   display: flex;
   flex-wrap: wrap;
-
+  
 
 }
 .project-li{
-  width: calc(100% / 3 -30px);
+  width: calc(100% /3 - 19.99px);
   margin-bottom: 30px;
+  border: 1px solid #EEEEEE;
+ 
+  
+
   
 }
 .project-li:not(:nth-child(3n+0)){
   margin-right: 30px;
+  
+  
  
 }
 
@@ -313,7 +320,7 @@ ul {
   
 }
 .section-header {
-  margin-top: 20px;
+  margin-bottom: 4px;
 
   font-weight: 700;
   font-size: 18px;
